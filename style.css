@@ -1,0 +1,114 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    color: #EDF5CE;
+    max-height:750px;
+}
+
+#constrain {
+    width: 1060px;
+    max-height: 750px;
+    left: 10px;
+    top: 10px;
+    position:absolute;
+}
+
+h1 {
+    font-size: 4em;
+    text-shadow: 3px, 3px, 3px, rgba(200, 220, 50, 0.5);
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    font-family: 'Schoolbell', cursive;
+    color: #EDF5CE;
+    font-weight: 500;
+}
+
+p, figcaption {
+    font-family: 'Exo 2', sans-serif;
+}
+
+img {
+    display: block;
+}
+
+#snowman {
+    width: 490px;
+    height: auto;
+    position: absolute;
+    left: 285px;
+    top: 150px;
+}
+
+#hat {
+    position: absolute;
+    left: 410px;
+    top: 215px;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+}
+
+#snowflake1 {
+    position: absolute;
+    left: 650px;
+    top: 100px;
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+#mittenleft {
+    position: absolute;
+    left: 200px;
+    top: 390px;
+    width: 170px;
+    height: auto;
+    cursor: pointer;
+}
+
+#mittenright {
+    position: absolute;
+    left: 690px;
+    top: 320px;
+    width: 170px;
+    height: auto;
+    cursor: pointer;
+}
+
+.deer{
+    max-width: 35%;
+    left: 860px;
+    top: 5px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+#snowflake2 {
+    position: absolute;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+    top: 25px;
+    left: 160px;
+}
+
+#snowflake3 {
+    position: absolute;
+    left: 55px;
+    top: 200px;
+    cursor: pointer;
+    width: 250px;
+    height: auto;
+}
+
+#snowflake4 {
+    position: absolute;
+    left: 5px;
+    top: 150px;
+    cursor: pointer;
+    width: 75px;
+    height: auto;
+}
